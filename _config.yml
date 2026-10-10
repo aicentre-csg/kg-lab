@@ -5,18 +5,12 @@ url: ""
 baseurl: ""
 markdown: kramdown
 
+# This site intentionally uses only plugins supported by GitHub Pages.
+# Publications are rendered from assets/publications.bib by assets/js/bibtex.js.
 plugins:
-  - jekyll-scholar
-
-scholar:
-  style: apa
-  locale: en
-  source: ./_bibliography
-  bibliography: publications.bib
-  bibliography_template: bibliography
-  sort_by: year,month
-  order: descending
+  - jekyll-seo-tag
 
 exclude:
+  - README.md
   - Gemfile
   - Gemfile.lock
