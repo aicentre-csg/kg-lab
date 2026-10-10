@@ -1,20 +1,20 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" role="img" aria-labelledby="title desc">
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
   <title id="title">Knowledge Graphs Lab logo</title>
-  <desc id="desc">A network of connected blue and teal nodes forming the letters KG.</desc>
-  <rect width="512" height="512" rx="256" fill="#ffffff"/>
-  <circle cx="256" cy="256" r="226" fill="#0b397a"/>
-  <g fill="none" stroke="#73e0d1" stroke-width="16" stroke-linecap="round" stroke-linejoin="round">
-    <path d="M142 130v252M148 258l126-128M148 258l132 124"/>
-    <path d="M369 161c-25-28-55-42-91-42-76 0-125 58-125 137s49 137 125 137c39 0 72-13 98-37v-91h-91"/>
+  <desc id="desc">Connected blue and teal nodes forming a knowledge graph above the words KG Lab.</desc>
+  <rect width="520" height="520" rx="42" fill="#ffffff"/>
+  <g transform="translate(70 48)">
+    <g fill="none" stroke="#1865d8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
+      <path d="M72 114 190 44l132 78-18 158-132 62L54 252Z"/>
+      <path d="M72 114 304 280M190 44 172 342M322 122 54 252"/>
+    </g>
+    <g fill="#2fa5ad" stroke="#ffffff" stroke-width="7">
+      <circle cx="72" cy="114" r="25"/>
+      <circle cx="190" cy="44" r="25"/>
+      <circle cx="322" cy="122" r="25"/>
+      <circle cx="304" cy="280" r="25"/>
+      <circle cx="172" cy="342" r="25"/>
+      <circle cx="54" cy="252" r="25"/>
+    </g>
   </g>
-  <g fill="#ffffff" stroke="#0b397a" stroke-width="8">
-    <circle cx="142" cy="130" r="24"/><circle cx="142" cy="258" r="24"/><circle cx="142" cy="382" r="24"/>
-    <circle cx="274" cy="130" r="24"/><circle cx="280" cy="382" r="24"/>
-    <circle cx="369" cy="161" r="24"/><circle cx="376" cy="305" r="24"/><circle cx="376" cy="356" r="24"/>
-  </g>
-  <g fill="#73e0d1">
-    <circle cx="142" cy="130" r="10"/><circle cx="142" cy="258" r="10"/><circle cx="142" cy="382" r="10"/>
-    <circle cx="274" cy="130" r="10"/><circle cx="280" cy="382" r="10"/>
-    <circle cx="369" cy="161" r="10"/><circle cx="376" cy="305" r="10"/><circle cx="376" cy="356" r="10"/>
-  </g>
+  <text x="260" y="458" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="-4" fill="#14213d">KG <tspan fill="#2fa5ad">Lab</tspan></text>
 </svg>

@@ -6,179 +6,219 @@ layout: null
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <meta name="description" content="{{ site.description }}">
-  <title>{{ site.title }}</title>
-  <link rel="icon" href="{{ '/assets/images/kg-lab-logo.svg' | relative_url }}" type="image/svg+xml">
+  <meta name="description" content="Knowledge Graphs Lab at City St George's, University of London.">
+  <title>{{ site.title }} | City St George's</title>
   <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
 </head>
 <body>
-  <a class="skip-link" href="#main">Skip to content</a>
-
-  <header class="site-header" id="top">
+  <header class="hero" id="top">
     <nav class="nav wrap" aria-label="Main navigation">
       <a class="brand" href="#top" aria-label="Knowledge Graphs Lab home">
-        <img src="{{ '/assets/images/kg-lab-logo.svg' | relative_url }}" alt="">
-        <span>Knowledge Graphs Lab</span>
+        <img class="brand-logo" src="{{ '/assets/images/kg-lab-logo.svg' | relative_url }}" alt="">
+        <span>KG<span>Lab</span></span>
       </a>
-      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">
-        <span>Menu</span>
-      </button>
+      <button class="menu-toggle" type="button" aria-expanded="false" aria-controls="site-menu">Menu</button>
       <div class="nav-links" id="site-menu">
-        <a href="#introduction">Introduction</a>
-        <a href="#members">Group members</a>
-        <a href="#research">Research lines</a>
+        <a href="#about">About</a>
+        <a href="#people">People</a>
+        <a href="#research">Research</a>
         <a href="#projects">Projects</a>
         <a href="#publications">Publications</a>
       </div>
     </nav>
 
-    <div class="hero wrap">
+    <div class="wrap hero-content">
       <div class="hero-copy">
         <p class="eyebrow">AI Centre · City St George's, University of London</p>
-        <h1>Connecting knowledge.<br>Building trustworthy AI.</h1>
-        <p class="lede">We develop methods to represent, integrate, reason over and learn from knowledge graphs—turning heterogeneous data into reliable, explainable and useful AI systems.</p>
+        <h1>Knowledge<br>Graphs Lab</h1>
+        <p class="lede">We develop principled and practical methods for representing, integrating and reasoning over knowledge at scale.</p>
         <div class="hero-actions">
-          <a class="button" href="#research">Explore our research</a>
-          <a class="text-link light" href="mailto:{{ site.email }}">Contact the lab <span aria-hidden="true">→</span></a>
+          <a class="button" href="#research">Our research</a>
+          <a class="text-button" href="mailto:Ernesto.Jimenez-Ruiz@citystgeorges.ac.uk">Get in touch <span>→</span></a>
         </div>
       </div>
-      <div class="hero-mark" aria-hidden="true">
+      <div class="hero-logo-panel" aria-hidden="true">
         <img src="{{ '/assets/images/kg-lab-logo.svg' | relative_url }}" alt="">
       </div>
     </div>
   </header>
 
-  <main id="main">
-    <section class="section wrap intro-grid" id="introduction">
+  <main>
+    <section class="wrap intro" id="about" aria-labelledby="about-heading">
       <div>
-        <p class="section-label">Introduction</p>
-        <h2>Knowledge that works together</h2>
+        <p class="section-label">About us</p>
+        <h2 id="about-heading">Making connected knowledge useful</h2>
       </div>
-      <div class="large-copy">
-        <p>The Knowledge Graphs Lab is part of the <a href="https://www.citystgeorges.ac.uk/research/centres/ai-centre">AI Centre</a> at City St George's, University of London.</p>
-        <p>Our research brings together knowledge representation, semantic technologies, machine learning and data integration. We are particularly interested in robust methods that make AI systems more interoperable, transparent and trustworthy.</p>
-        <p>We welcome collaborations with academic, public-sector and industry partners.</p>
+      <div>
+        <p>We are a research group in the <a href="https://www.citystgeorges.ac.uk/research/centres/ai-centre">AI Centre</a> at City St George's, University of London. Our work brings together knowledge representation, semantic technologies, machine learning and data integration to build trustworthy, interoperable knowledge-driven systems.</p>
+        <p class="intro-note">We welcome collaborations with researchers, public-sector organisations and industry partners.</p>
       </div>
     </section>
 
-    <section class="section section-tint" id="members">
+    <section class="band" id="people">
       <div class="wrap">
-        <p class="section-label">Our team</p>
+        <p class="section-label">People</p>
         <h2>Group members</h2>
-        <div class="people-grid">
-          <article class="person-card">
-            <img class="portrait" src="https://ernestojimenezruiz.github.io/assets/img/prof_pic.jpg" alt="Ernesto Jimenez-Ruiz" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.classList.add('no-photo')">
-            <div class="person-body">
-              <p class="role">Principal Investigator</p>
-              <h3><a href="https://ernestojimenezruiz.github.io/">Ernesto Jimenez-Ruiz</a></h3>
-              <p>Knowledge representation, ontology matching, reasoning and trustworthy knowledge-driven AI.</p>
-            </div>
+        <div class="cards people-grid">
+          <article class="person-card featured">
+            <div class="portrait"><img src="https://ernestojimenezruiz.github.io/assets/img/prof_pic.jpg?4073ea9d19a1bc851259ce45040d58a2" alt="Ernesto Jimenez-Ruiz"></div>
+            <div class="person-content"><p class="role">Principal Investigator</p><h3><a href="https://ernestojimenezruiz.github.io/" rel="external">Ernesto Jimenez-Ruiz</a></h3><p>Knowledge representation, ontology matching and reasoning for large-scale knowledge graphs.</p></div>
           </article>
-
           <article class="person-card">
-            <img class="portrait" src="https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=XSrMNw8AAAAJ&amp;citpid=2" alt="Valentina Carapella" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.classList.add('no-photo')">
-            <div class="person-body">
-              <p class="role">Researcher</p>
-              <h3><a href="https://www.linkedin.com/in/valentina-carapella-961b1820?originalSubdomain=uk">Valentina Carapella</a></h3>
-              <p>Data science, data engineering, knowledge representation and semantic technologies.</p>
-            </div>
+            <div class="portrait"><img src="https://scholar.googleusercontent.com/citations?view_op=view_photo&amp;user=XSrMNw8AAAAJ&amp;citpid=2" alt="Valentina Carapella"></div>
+            <div class="person-content"><p class="role">Researcher</p><h3><a href="https://www.linkedin.com/in/valentina-carapella-961b1820?originalSubdomain=uk" rel="external">Valentina Carapella</a></h3><p>Data science, data engineering and knowledge representation.</p></div>
           </article>
-
           <article class="person-card">
-            <img class="portrait" src="https://github.com/pedrocotovio.png?size=500" alt="Pedro Cotovio" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.classList.add('no-photo')">
-            <div class="person-body">
-              <p class="role">Visiting PhD Student</p>
-              <h3><a href="https://pedrocotovio.github.io/">Pedro Cotovio</a></h3>
-              <p>Neuro-symbolic AI, ontology matching, knowledge graph alignment and explainability.</p>
-            </div>
+            <div class="portrait"><img src="https://github.com/pedrocotovio.png?size=500" alt="Pedro Cotovio"></div>
+            <div class="person-content"><p class="role">Researcher</p><h3><a href="https://pedrocotovio.github.io/" rel="external">Pedro Cotovio</a></h3><p>Neuro-symbolic AI, ontology matching and knowledge graph alignment.</p></div>
           </article>
-
           <article class="person-card">
-            <img class="portrait" src="https://avatars.githubusercontent.com/u/6503216?v=4" alt="Jonathon Dilworth" loading="lazy" onerror="this.hidden=true;this.nextElementSibling.classList.add('no-photo')">
-            <div class="person-body">
-              <p class="role">Researcher / Research Software Engineer</p>
-              <h3><a href="https://dilworth.io/">Jonathon Dilworth</a></h3>
-              <p>Knowledge graphs, ontology interoperability, language models and research software.</p>
-            </div>
+            <div class="portrait portrait-placeholder" aria-label="Portrait of Jonathon Dilworth"><span>JD</span></div>
+            <div class="person-content"><p class="role">Researcher</p><h3><a href="https://dilworth.io/" rel="external">Jonathon Dilworth</a></h3><p>Knowledge graphs, machine learning and trustworthy AI.</p></div>
           </article>
         </div>
-        <p class="maintenance-note">Member details are kept in one clearly marked block in <code>index.html</code>. Replace any photo URL with a local file in <code>assets/images/</code> if preferred.</p>
+        <p class="photo-note">A portrait for Jonathon Dilworth can be added by replacing the initials tile with an image in the corresponding member card.</p>
       </div>
     </section>
 
-    <section class="section wrap" id="research">
-      <p class="section-label">What we study</p>
+    <section class="wrap section" id="research">
+      <p class="section-label">Research</p>
       <h2>Research lines</h2>
       <div class="research-grid">
-        <article>
-          <span class="number">01</span>
-          <h3>Knowledge graph construction</h3>
-          <p>Extracting, curating and maintaining high-quality knowledge graphs from heterogeneous and evolving data.</p>
-        </article>
-        <article>
-          <span class="number">02</span>
-          <h3>Ontology alignment &amp; integration</h3>
-          <p>Connecting independently developed data models and vocabularies to enable semantic interoperability.</p>
-        </article>
-        <article>
-          <span class="number">03</span>
-          <h3>Reasoning &amp; validation</h3>
-          <p>Scalable logical reasoning, constraint checking and quality assurance for dependable knowledge-based applications.</p>
-        </article>
-        <article>
-          <span class="number">04</span>
-          <h3>Neuro-symbolic &amp; trustworthy AI</h3>
-          <p>Combining structured knowledge and machine learning to create robust, transparent and explainable AI systems.</p>
-        </article>
+        <article><span>01</span><h3>Knowledge graph construction</h3><p>Extracting, curating and maintaining high-quality knowledge graphs from heterogeneous data.</p></article>
+        <article><span>02</span><h3>Ontology alignment &amp; integration</h3><p>Connecting data and vocabularies across domains to make information interoperable.</p></article>
+        <article><span>03</span><h3>Reasoning &amp; validation</h3><p>Scalable logical reasoning and quality assurance for reliable knowledge-based applications.</p></article>
+        <article><span>04</span><h3>Neuro-symbolic AI</h3><p>Combining structured knowledge with learning methods for transparent and robust AI.</p></article>
       </div>
     </section>
 
-    <section class="section section-dark" id="projects">
+    <section class="band" id="projects">
       <div class="wrap">
-        <p class="section-label aqua">Active work</p>
+        <p class="section-label">Projects</p>
         <h2>Current projects</h2>
-        <div class="project-grid">
-          <article class="project-card">
-            <p class="project-type">Defence &amp; national security</p>
-            <h3>GUARD</h3>
-            <p>Ensuring interoperable and trustworthy knowledge graphs for defence and national security AI.</p>
-            <a href="https://ernestojimenezruiz.github.io/projects/guard/">Visit project <span aria-hidden="true">→</span></a>
-          </article>
-          <article class="project-card">
-            <p class="project-type">Horizon Europe</p>
-            <h3>CEREBRA AI</h3>
-            <p>A unified framework for continual, explainable and embodied general-purpose artificial intelligence.</p>
-            <a href="https://cordis.europa.eu/project/id/101299046">Visit project <span aria-hidden="true">→</span></a>
-          </article>
+        <div class="cards project-grid">
+          <article class="card project-card"><h3>GUARD</h3><p>Research on knowledge graph technologies and their dependable application.</p><a class="arrow-link" href="https://ernestojimenezruiz.github.io/projects/guard/">Project details <span>→</span></a></article>
+          <article class="card project-card"><h3>CEREBRA AI</h3><p>European research project advancing AI-driven solutions and collaboration.</p><a class="arrow-link" href="https://cordis.europa.eu/project/id/101299046">Project details <span>→</span></a></article>
         </div>
       </div>
     </section>
 
-    <section class="section wrap" id="publications">
-      <p class="section-label">Research outputs</p>
+    <section class="wrap section publications" id="publications">
+      <p class="section-label">Outputs</p>
       <h2>Selected publications</h2>
-      <p class="publication-note">This list is read directly from <code>assets/publications.bib</code>. Add or edit BibTeX entries there; no unsupported Jekyll plugin is required.</p>
-      <div id="bibliography" class="bibliography" data-bib-url="{{ '/assets/publications.bib' | relative_url }}">
-        <p>Loading publications…</p>
+      <p class="publication-note">This list is generated automatically from <code>publications.bib</code>. Add or edit BibTeX entries there to update this page.</p>
+      <div class="bibliography" id="bibliography" data-bib-url="{{ '/publications.bib' | relative_url }}">
+        <p class="publication-status">Loading publications…</p>
       </div>
-      <noscript><p>Enable JavaScript to display the BibTeX publication list, or open <a href="{{ '/assets/publications.bib' | relative_url }}">the BibTeX file</a>.</p></noscript>
     </section>
   </main>
 
   <footer>
-    <div class="wrap footer-grid">
-      <div class="footer-brand">
-        <img src="{{ '/assets/images/kg-lab-logo.svg' | relative_url }}" alt="">
-        <p><strong>Knowledge Graphs Lab</strong><br>AI Centre<br>City St George's, University of London</p>
-      </div>
-      <div>
-        <p class="footer-label">Contact</p>
-        <a href="mailto:{{ site.email }}">{{ site.email }}</a>
-      </div>
-    </div>
+    <div class="wrap footer-content"><p><strong>Knowledge Graphs Lab</strong><br>AI Centre, City St George's, University of London</p><a href="mailto:Ernesto.Jimenez-Ruiz@citystgeorges.ac.uk">Ernesto.Jimenez-Ruiz@citystgeorges.ac.uk</a></div>
   </footer>
 
-  <script src="{{ '/assets/js/site.js' | relative_url }}"></script>
-  <script src="{{ '/assets/js/bibtex.js' | relative_url }}"></script>
+  <script>
+    const toggle = document.querySelector('.menu-toggle');
+    const menu = document.querySelector('.nav-links');
+    toggle.addEventListener('click', () => {
+      const open = menu.classList.toggle('is-open');
+      toggle.setAttribute('aria-expanded', open);
+    });
+    menu.querySelectorAll('a').forEach(link => link.addEventListener('click', () => {
+      menu.classList.remove('is-open');
+      toggle.setAttribute('aria-expanded', 'false');
+    }));
+
+
+    const bibliography = document.querySelector('#bibliography');
+
+    function escapeHtml(value = '') {
+      const node = document.createElement('span');
+      node.textContent = value;
+      return node.innerHTML;
+    }
+
+    function cleanBibValue(value = '') {
+      return value
+        .trim()
+        .replace(/^\s*[\{"]|[\}"]\s*$/g, '')
+        .replace(/[{}]/g, '')
+        .replace(/\\&/g, '&')
+        .replace(/\\textit\s*/g, '')
+        .replace(/\\[a-zA-Z]+/g, '')
+        .replace(/\s+/g, ' ')
+        .trim();
+    }
+
+    function parseBibTeX(source) {
+      const entries = [];
+      const text = source.replace(/^\s*%.*$/gm, '');
+      const entryPattern = /@(article|inproceedings|incollection|book|phdthesis|mastersthesis|techreport|misc)\s*\{\s*([^,]+),/gi;
+      let match;
+
+      while ((match = entryPattern.exec(text)) !== null) {
+        let depth = 1;
+        let quoted = false;
+        let escaped = false;
+        let end = entryPattern.lastIndex;
+
+        for (; end < text.length; end += 1) {
+          const char = text[end];
+          if (escaped) { escaped = false; continue; }
+          if (char === '\\') { escaped = true; continue; }
+          if (char === '"') quoted = !quoted;
+          if (!quoted && char === '{') depth += 1;
+          if (!quoted && char === '}') {
+            depth -= 1;
+            if (depth === 0) break;
+          }
+        }
+
+        const body = text.slice(entryPattern.lastIndex, end);
+        const fields = {};
+        const fieldPattern = /([a-zA-Z][\w-]*)\s*=\s*(\{(?:[^{}]|\{[^{}]*\})*\}|"(?:[^"\\]|\\.)*"|[^,\n]+)/g;
+        let field;
+        while ((field = fieldPattern.exec(body)) !== null) {
+          fields[field[1].toLowerCase()] = cleanBibValue(field[2]);
+        }
+        entries.push({ type: match[1].toLowerCase(), key: match[2].trim(), ...fields });
+        entryPattern.lastIndex = end + 1;
+      }
+
+      return entries.sort((a, b) => Number(b.year || 0) - Number(a.year || 0));
+    }
+
+    function renderPublications(entries) {
+      if (!entries.length) {
+        bibliography.innerHTML = '<p class="publication-status">No BibTeX entries found yet. Add entries to <code>publications.bib</code>.</p>';
+        return;
+      }
+
+      const items = entries.map(entry => {
+        const authors = escapeHtml((entry.author || 'Unknown author').replace(/\s+and\s+/gi, ', '));
+        const title = escapeHtml(entry.title || 'Untitled publication');
+        const venue = escapeHtml(entry.journal || entry.booktitle || entry.publisher || entry.institution || '');
+        const year = escapeHtml(entry.year || '');
+        const target = entry.doi ? `https://doi.org/${entry.doi.replace(/^https?:\/\/(dx\.)?doi\.org\//i, '')}` : entry.url;
+        const linkedTitle = target
+          ? `<a href="${escapeHtml(target)}" rel="external noopener">${title}</a>`
+          : title;
+        const details = [venue, year].filter(Boolean).join(', ');
+        return `<li><span class="publication-authors">${authors}.</span> <strong>${linkedTitle}</strong>${details ? `. <span class="publication-venue">${details}.</span>` : ''}</li>`;
+      }).join('');
+
+      bibliography.innerHTML = `<ol>${items}</ol>`;
+    }
+
+    fetch(bibliography.dataset.bibUrl)
+      .then(response => {
+        if (!response.ok) throw new Error(`HTTP ${response.status}`);
+        return response.text();
+      })
+      .then(source => renderPublications(parseBibTeX(source)))
+      .catch(() => {
+        bibliography.innerHTML = '<p class="publication-status publication-error">Publications could not be loaded. Check that <code>publications.bib</code> is in the repository root.</p>';
+      });
+  </script>
 </body>
 </html>

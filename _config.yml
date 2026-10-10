@@ -1,16 +1,13 @@
 title: Knowledge Graphs Lab
 email: Ernesto.Jimenez-Ruiz@citystgeorges.ac.uk
 description: Knowledge Graphs Lab at the AI Centre, City St George's, University of London.
-url: ""
-baseurl: ""
+url: "https://aicentre-csg.github.io"
+baseurl: "/kg-lab"
 markdown: kramdown
 
-# This site intentionally uses only plugins supported by GitHub Pages.
-# Publications are rendered from assets/publications.bib by assets/js/bibtex.js.
-plugins:
-  - jekyll-seo-tag
+theme: null
+plugins: []
 
 exclude:
-  - README.md
   - Gemfile
   - Gemfile.lock
