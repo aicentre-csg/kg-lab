@@ -1,20 +1,22 @@
-title: "Knowledge Graphs Research Lab"
-description: "Knowledge graphs, semantic technologies and trustworthy AI"
+title: Knowledge Graphs Lab
+email: Ernesto.Jimenez-Ruiz@citystgeorges.ac.uk
+description: Knowledge Graphs Lab at the AI Centre, City St George's, University of London.
 url: ""
 baseurl: ""
-theme: minima
 markdown: kramdown
+
 plugins:
-  - jekyll-feed
-header_pages:
-  - research.md
-  - projects.md
-  - people.md
-  - publications.md
-  - contact.md
-lab:
-  institution: "AI Centre, City St George’s, University of London"
-  email: "kg-lab@example.ac.uk"
-  location: "London, United Kingdom"
-  github: ""
-  bluesky: ""
+  - jekyll-scholar
+
+scholar:
+  style: apa
+  locale: en
+  source: ./_bibliography
+  bibliography: publications.bib
+  bibliography_template: bibliography
+  sort_by: year,month
+  order: descending
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
