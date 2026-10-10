@@ -1,0 +1,59 @@
+<svg xmlns="http://www.w3.org/2000/svg" width="767" height="900" viewBox="0 0 767 900" role="img" aria-labelledby="title desc">
+  <title id="title">KG Lab network logo</title>
+  <desc id="desc">The network-based KG symbol with a KG Lab wordmark below it.</desc>
+
+  <rect width="767" height="900" fill="#ffffff"/>
+
+  <!-- Network-based KG symbol -->
+  <g transform="translate(0 -55)">
+    <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
+      <!-- K -->
+      <path d="M193 275 L193 394 L195 475" stroke="#292f7d"/>
+      <path d="M193 275 L243 342 L343 465" stroke="#292f7d"/>
+      <path d="M193 394 L343 465" stroke="#292f7d"/>
+      <path d="M193 394 L323 275" stroke="#244caf"/>
+      <path d="M195 475 L243 342 L323 275" stroke="#1f4daf"/>
+      <path d="M243 342 L323 275" stroke="#234db1"/>
+
+      <!-- G -->
+      <path d="M369 372 L424 298 L501 274 L580 300" stroke="#283080"/>
+      <path d="M369 372 L501 274" stroke="#204dad"/>
+      <path d="M424 298 L400 475 L458 483" stroke="#273080"/>
+      <path d="M369 372 L400 475" stroke="#149ab8"/>
+      <path d="M369 372 L458 483" stroke="#1851a8"/>
+      <path d="M458 483 L576 473" stroke="#1d4eb0"/>
+      <path d="M458 492 L576 473" stroke="#2449aa"/>
+      <path d="M503 395 L583 396 L576 473" stroke="#292f7d"/>
+      <path d="M503 395 L576 473" stroke="#292f7d"/>
+      <path d="M458 483 L583 396" stroke="#263180"/>
+    </g>
+
+    <g>
+      <!-- K nodes -->
+      <circle cx="193" cy="275" r="19.5" fill="#29317f"/>
+      <circle cx="193" cy="394" r="20" fill="#29317f"/>
+      <circle cx="195" cy="475" r="20" fill="#159fbc"/>
+      <circle cx="243" cy="342" r="20" fill="#244bb0"/>
+      <circle cx="323" cy="275" r="20" fill="#244db0"/>
+      <circle cx="343" cy="465" r="20" fill="#29317f"/>
+
+      <!-- G nodes -->
+      <circle cx="369" cy="372" r="20" fill="#159fbc"/>
+      <circle cx="424" cy="298" r="20" fill="#29317f"/>
+      <circle cx="501" cy="274" r="20" fill="#1377bd"/>
+      <circle cx="580" cy="300" r="20" fill="#159fbc"/>
+      <circle cx="400" cy="475" r="20" fill="#29317f"/>
+      <circle cx="458" cy="483" r="20" fill="#244bb0"/>
+      <circle cx="503" cy="395" r="20" fill="#29317f"/>
+      <circle cx="583" cy="396" r="20" fill="#29317f"/>
+      <circle cx="576" cy="473" r="20" fill="#159fbc"/>
+    </g>
+  </g>
+
+  <!-- Wordmark -->
+  <text x="383.5" y="610" text-anchor="middle"
+        font-family="Inter, Avenir, 'Helvetica Neue', Arial, sans-serif"
+        font-size="94" letter-spacing="-4">
+    <tspan fill="#111c3b" font-weight="700">KG</tspan><tspan fill="#2ca6af" font-weight="400"> Lab</tspan>
+  </text>
+</svg>

@@ -5,7 +5,7 @@
   <rect width="767" height="900" fill="#ffffff"/>
 
   <!-- Network-based KG symbol -->
-  <g transform="translate(0 -55)">
+  <g transform="translate(-57.5 -141.25) scale(1.15)">
     <g fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="6">
       <!-- K -->
       <path d="M193 275 L193 394 L195 475" stroke="#292f7d"/>
@@ -51,7 +51,7 @@
   </g>
 
   <!-- Wordmark -->
-  <text x="383.5" y="610" text-anchor="middle"
+  <text x="383.5" y="535" text-anchor="middle"
         font-family="Inter, Avenir, 'Helvetica Neue', Arial, sans-serif"
         font-size="94" letter-spacing="-4">
     <tspan fill="#111c3b" font-weight="700">KG</tspan><tspan fill="#2ca6af" font-weight="400"> Lab</tspan>
