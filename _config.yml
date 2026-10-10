@@ -1,0 +1,20 @@
+title: "Knowledge Graphs Research Lab"
+description: "Knowledge graphs, semantic technologies and trustworthy AI"
+url: ""
+baseurl: ""
+theme: minima
+markdown: kramdown
+plugins:
+  - jekyll-feed
+header_pages:
+  - research.md
+  - projects.md
+  - people.md
+  - publications.md
+  - contact.md
+lab:
+  institution: "AI Centre, City St George’s, University of London"
+  email: "kg-lab@example.ac.uk"
+  location: "London, United Kingdom"
+  github: ""
+  bluesky: ""

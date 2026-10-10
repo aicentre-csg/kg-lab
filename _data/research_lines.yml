@@ -1,0 +1,27 @@
+- title: "Knowledge Graphs and Semantic Technologies"
+  summary: "Models, languages and infrastructure for representing domain knowledge as connected, machine-interpretable data."
+  topics:
+    - Knowledge representation and ontologies
+    - RDF, OWL and graph technologies
+    - Knowledge graph construction and curation
+
+- title: "Ontology Alignment and Knowledge Integration"
+  summary: "Methods for discovering correspondences between knowledge models and integrating heterogeneous data sources."
+  topics:
+    - Ontology matching and alignment
+    - Data and schema integration
+    - Reuse of background knowledge
+
+- title: "Reasoning, Quality and Trustworthy Knowledge"
+  summary: "Logic-based methods to validate knowledge, detect inconsistencies and incompleteness, and support trustworthy AI."
+  topics:
+    - Automated reasoning and validation
+    - Knowledge graph quality and repair
+    - Provenance, explainability and evidence
+
+- title: "Knowledge Graphs and Generative AI"
+  summary: "Combining structured knowledge with language models to improve grounding, reliability and transparency."
+  topics:
+    - Neuro-symbolic AI
+    - Retrieval and knowledge-grounded generation
+    - LLM-assisted knowledge engineering

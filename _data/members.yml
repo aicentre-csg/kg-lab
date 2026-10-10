@@ -1,0 +1,20 @@
+# Copy an entry to add a person. Available roles:
+# Principal Investigator, Academic staff, Research staff, PhD students, Visitors and collaborators
+# Use a relative photo path such as /assets/images/name.jpg, or leave photo blank.
+- name: "Lab lead name"
+  role: "Principal Investigator"
+  position: "Lab Lead"
+  bio: "Add a short research biography here."
+  photo: ""
+  website: ""
+  scholar: ""
+  orcid: ""
+
+- name: "Researcher name"
+  role: "PhD students"
+  position: "PhD Researcher"
+  bio: "Add a brief description of research interests."
+  photo: ""
+  website: ""
+  scholar: ""
+  orcid: ""
