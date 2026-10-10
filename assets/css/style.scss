@@ -70,7 +70,12 @@ h2 { letter-spacing: -.035em; font-weight: 750; line-height: 1.2; }
 .info-card h3, .info-card h2 { font-size: 1.2rem; margin: 14px 0 10px; }
 .info-card p { color: var(--muted); margin-bottom: 0; }
 .card-number { display: inline-flex; align-items: center; justify-content: center; width: 36px; height: 36px; border-radius: 9px; background: #e5f5f4; color: var(--teal-dark); font-size: .78rem; font-weight: 800; }
-.project-band { padding: clamp(25px, 5vw, 48px); margin-left: calc((1120px - 100vw)/2); margin-right: calc((1120px - 100vw)/2); padding-left: max(clamp(25px, 5vw, 48px), calc((100vw - 1120px)/2)); padding-right: max(clamp(25px, 5vw, 48px), calc((100vw - 1120px)/2)); background: var(--wash); }
+.project-band {
+  padding: 48px;
+  margin-left: -15px;
+  margin-right: -15px;
+  background: var(--wash);
+}
 .project-list { border-top: 1px solid var(--line); }
 .project-row { display: flex; justify-content: space-between; align-items: center; gap: 24px; padding: 25px 0; border-bottom: 1px solid var(--line); }
 .project-row h2, .project-row h3 { font-size: 1.25rem; margin: 4px 0 8px; }
