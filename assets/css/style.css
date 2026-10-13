@@ -37,6 +37,7 @@ h3 { font-size: 1.22rem; margin-bottom: .6rem; }
 .hero-logo-panel img { display: block; width: 100%; height: auto; border-radius: 14px; }
 .eyebrow, .section-label, .role { margin-bottom: .65rem; text-transform: uppercase; font-size: .74rem; font-weight: 800; letter-spacing: .12em; }
 .eyebrow { color: var(--aqua); }
+.eyebrow a, a:hover { color: var(--aqua); }
 h1 { max-width: 750px; margin-bottom: 1.2rem; font-size: clamp(3rem, 7vw, 6rem); letter-spacing: -.06em; }
 .lede { max-width: 680px; margin-bottom: 2rem; font-size: clamp(1.1rem, 2vw, 1.4rem); line-height: 1.55; }
 .hero-actions { display: flex; gap: 1.35rem; align-items: center; }
