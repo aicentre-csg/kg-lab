@@ -1,20 +1,45 @@
-<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
-  <title id="title">Knowledge Graphs Lab logo</title>
-  <desc id="desc">Connected blue and teal nodes forming a knowledge graph above the words KG Lab.</desc>
-  <rect width="520" height="520" rx="42" fill="#ffffff"/>
-  <g transform="translate(70 48)">
-    <g fill="none" stroke="#1865d8" stroke-width="14" stroke-linecap="round" stroke-linejoin="round">
-      <path d="M72 114 190 44l132 78-18 158-132 62L54 252Z"/>
-      <path d="M72 114 304 280M190 44 172 342M322 122 54 252"/>
-    </g>
-    <g fill="#2fa5ad" stroke="#ffffff" stroke-width="7">
-      <circle cx="72" cy="114" r="25"/>
-      <circle cx="190" cy="44" r="25"/>
-      <circle cx="322" cy="122" r="25"/>
-      <circle cx="304" cy="280" r="25"/>
-      <circle cx="172" cy="342" r="25"/>
-      <circle cx="54" cy="252" r="25"/>
-    </g>
+<svg xmlns="http://www.w3.org/2000/svg" width="520" height="520" viewBox="0 0 520 520" role="img" aria-labelledby="title desc">
+  <title id="title">KG Lab logo – City red accent</title>
+  <desc id="desc">Connected graph letters K and G with a City St George's red accent node, KG Lab wordmark, and AI Centre affiliation.</desc>
+  <rect width="520" height="520" rx="24" fill="#ffffff"/>
+
+  <!-- Connected KG graph -->
+  <g transform="translate(-34 12) scale(.76)" fill="none" stroke-linecap="round" stroke-linejoin="round" stroke-width="7">
+    <path d="M193 110 L193 240 L195 340" stroke="#292f7d"/>
+    <path d="M193 110 L250 185 L350 330" stroke="#292f7d"/>
+    <path d="M193 240 L350 330" stroke="#292f7d"/>
+    <path d="M193 240 L330 110" stroke="#2454bd"/>
+    <path d="M195 340 L250 185 L330 110" stroke="#2454bd"/>
+    <path d="M250 185 L330 110" stroke="#2454bd"/>
+    <path d="M380 215 L430 135 L510 105 L595 140" stroke="#292f7d"/>
+    <path d="M380 215 L510 105" stroke="#2454bd"/>
+    <path d="M430 135 L408 340 L472 350" stroke="#292f7d"/>
+    <path d="M380 215 L408 340" stroke="#18a2b8"/>
+    <path d="M380 215 L472 350" stroke="#2454bd"/>
+    <path d="M472 350 L592 337" stroke="#2454bd"/>
+    <path d="M520 245 L600 246 L592 337" stroke="#292f7d"/>
+    <path d="M520 245 L592 337" stroke="#292f7d"/>
+    <path d="M472 350 L600 246" stroke="#292f7d"/>
   </g>
-  <text x="260" y="458" text-anchor="middle" font-family="Inter, Arial, sans-serif" font-size="72" font-weight="800" letter-spacing="-4" fill="#14213d">KG <tspan fill="#2fa5ad">Lab</tspan></text>
+
+  <!-- Nodes -->
+  <g transform="translate(-34 12) scale(.76)">
+    <g fill="#29317f">
+      <circle cx="193" cy="110" r="23"/><circle cx="193" cy="240" r="23"/><circle cx="350" cy="330" r="23"/>
+      <circle cx="430" cy="135" r="23"/><circle cx="408" cy="340" r="23"/><circle cx="520" cy="245" r="23"/><circle cx="600" cy="246" r="23"/>
+    </g>
+    <g fill="#2454bd"><circle cx="250" cy="185" r="23"/><circle cx="330" cy="110" r="23"/><circle cx="472" cy="350" r="23"/></g>
+    <g fill="#18a2b8"><circle cx="195" cy="340" r="23"/><circle cx="380" cy="215" r="23"/><circle cx="592" cy="337" r="23"/></g>
+    <!-- City red is used sparingly as an institutional accent. -->
+    <circle cx="510" cy="105" r="23" fill="#d7192d"/>
+    <circle cx="595" cy="140" r="23" fill="#18a2b8"/>
+  </g>
+
+  <g font-family="Inter, Avenir, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
+    <text x="260" y="386" font-size="70" letter-spacing="-3"><tspan fill="#111c3b" font-weight="700">KG</tspan><tspan fill="#2ca6af" font-weight="400"> Lab</tspan></text>
+    <rect x="139" y="405" width="242" height="5" rx="2.5" fill="#d7192d"/>
+    <text x="260" y="438" font-size="17" font-weight="700" letter-spacing="4" fill="#17213d">AI CENTRE</text>
+    <text x="260" y="466" font-size="13" font-weight="600" letter-spacing="1.35" fill="#5b6475">CITY ST GEORGE'S</text>
+    <text x="260" y="486" font-size="11" font-weight="400" letter-spacing="1.7" fill="#747c89">UNIVERSITY OF LONDON</text>
+  </g>
 </svg>
