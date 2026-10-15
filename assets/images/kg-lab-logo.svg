@@ -25,11 +25,21 @@
   <!-- Nodes -->
   <g transform="translate(-34 12) scale(.76)">
     <g fill="#29317f">
-      <circle cx="193" cy="110" r="23"/><circle cx="193" cy="240" r="23"/><circle cx="350" cy="330" r="23"/>
-      <circle cx="430" cy="135" r="23"/><circle cx="408" cy="340" r="23"/><circle cx="520" cy="245" r="23"/><circle cx="600" cy="246" r="23"/>
+      <circle cx="193" cy="110" r="23"/><circle cx="350" cy="330" r="23"/>
+      <circle cx="430" cy="135" r="23"/><circle cx="520" cy="245" r="23"/><circle cx="600" cy="246" r="23"/>
     </g>
-    <g fill="#2454bd"><circle cx="250" cy="185" r="23"/><circle cx="330" cy="110" r="23"/><circle cx="472" cy="350" r="23"/></g>
-    <g fill="#18a2b8"><circle cx="195" cy="340" r="23"/><circle cx="380" cy="215" r="23"/><circle cx="592" cy="337" r="23"/></g>
+	
+	<g fill="#d7192d"> <!-- "#29317f" -->      
+      <circle cx="408" cy="340" r="23"/>	  
+	  <circle cx="193" cy="240" r="23"/>
+    </g>
+	
+    <g fill="#2454bd">
+	<circle cx="250" cy="185" r="23"/><circle cx="330" cy="110" r="23"/><circle cx="472" cy="350" r="23"/>
+	</g>	
+    <g fill="#18a2b8">
+	<circle cx="195" cy="340" r="23"/><circle cx="380" cy="215" r="23"/><circle cx="592" cy="337" r="23"/>
+	</g>
     <!-- City red is used sparingly as an institutional accent. -->
     <circle cx="510" cy="105" r="23" fill="#d7192d"/>
     <circle cx="595" cy="140" r="23" fill="#18a2b8"/>
