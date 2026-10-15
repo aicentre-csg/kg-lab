@@ -35,11 +35,11 @@
     <circle cx="595" cy="140" r="23" fill="#18a2b8"/>
   </g>
 
-  <g font-family="Inter, Avenir, 'Helvetica Neue', Arial, sans-serif" text-anchor="middle">
-    <text x="260" y="386" font-size="70" letter-spacing="-3"><tspan fill="#111c3b" font-weight="700">KG</tspan><tspan fill="#2ca6af" font-weight="400"> Lab</tspan></text>
+  <g font-family="Inter, Arial, sans-serif" text-anchor="middle">
+    <text x="260" y="386" font-size="70" letter-spacing="-3"><tspan fill="#111c3b" font-weight="800">KG</tspan><tspan fill="#2ca6af" font-weight="800">Lab</tspan></text>
     <rect x="139" y="405" width="242" height="5" rx="2.5" fill="#d7192d"/>
-    <text x="260" y="438" font-size="17" font-weight="700" letter-spacing="4" fill="#17213d">AI CENTRE</text>
-    <text x="260" y="466" font-size="13" font-weight="600" letter-spacing="1.35" fill="#5b6475">CITY ST GEORGE'S</text>
-    <text x="260" y="486" font-size="11" font-weight="400" letter-spacing="1.7" fill="#747c89">UNIVERSITY OF LONDON</text>
+    <text x="260" y="438" font-size="22" font-weight="700" letter-spacing="4" fill="#17213d">AI CENTRE</text>
+    <text x="260" y="466" font-size="15" font-weight="600" letter-spacing="1.35" fill="#5b6475">CITY ST GEORGE'S</text>
+    <text x="260" y="486" font-size="13" font-weight="400" letter-spacing="1.7" fill="#747c89">UNIVERSITY OF LONDON</text>
   </g>
 </svg>
