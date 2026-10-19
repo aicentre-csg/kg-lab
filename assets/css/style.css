@@ -72,7 +72,7 @@ h1 { max-width: 750px; margin-bottom: 1.2rem; font-size: clamp(3rem, 7vw, 6rem);
 
 
 
-/* Compact variants for students and past members. */
+/* Compact variants for students and past members. aspect-ratio: 1 / .82;*/
 .people-grid--compact {
   grid-template-columns: repeat(5, minmax(0, 1fr));
   gap: 1rem;
@@ -82,7 +82,7 @@ h1 { max-width: 750px; margin-bottom: 1.2rem; font-size: clamp(3rem, 7vw, 6rem);
 }
 .person-card--compact .portrait {
   width: 90%;
-  aspect-ratio: 1 / .82;
+  aspect-ratio: 1 / 1;
 }
 .person-card--compact .portrait img {
   width: 90%;
