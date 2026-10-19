@@ -82,7 +82,7 @@ h1 { max-width: 750px; margin-bottom: 1.2rem; font-size: clamp(3rem, 7vw, 6rem);
 }
 .person-card--compact .portrait {
   width: 90%;
-  aspect-ratio: 1.2 / 1;
+  aspect-ratio: 1 / 1.2;
 }
 .person-card--compact .portrait img {
   width: 90%;
