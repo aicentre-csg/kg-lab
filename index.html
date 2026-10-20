@@ -23,7 +23,8 @@ layout: null
         <a href="#people">People</a>
         <a href="#research">Research</a>
         <a href="#projects">Projects</a>
-	<a href="#community">Community</a>
+		<a href="#community">Community</a>
+		<a href="#teaching">Teaching</a>
         <a href="#publications">Publications</a>
       </div>
     </nav>
@@ -90,18 +91,21 @@ layout: null
 	<!-- External Members -->
 	<h3>External Members</h3>
         <div class="cards people-grid people-grid--compact">
-	<article class="person-card person-card--compact">
-	    <div class="portrait"><img src="{{ '/assets/images/jonathon.jpg' | relative_url }}" alt="Jonathon Dilworth"></div>
-            <!-- div class="portrait portrait-placeholder" aria-label="Portrait of Jonathon Dilworth"><span>JD</span></div -->
-            <div class="person-content"><p class="role">Researcher</p><h3><a href="https://dilworth.io/" rel="external">Jonathon Dilworth</a></h3><p>Ontology alignment with large language models</p></div>
-          </article>
-	<article class="person-card person-card--compact">
-	    <div class="portrait"><img src="{{ '/assets/images/erica.png' | relative_url }}" alt="Erica Yang"></div>
-            <div class="person-content"><p class="role">Honorary Visiting Fellow</p><h3><a href="https://www.chiltoncomputing.co.uk/about-us/erica-yang/" rel="external">Erica Yang</a></h3><p>Knowledge Graphs for Healthcare</p></div>
-          </article>
-
-        </div>
-	
+		<article class="person-card person-card--compact">
+			<div class="portrait"><img src="{{ '/assets/images/jonathon.jpg' | relative_url }}" alt="Jonathon Dilworth"></div>
+				<!-- div class="portrait portrait-placeholder" aria-label="Portrait of Jonathon Dilworth"><span>JD</span></div -->
+				<div class="person-content"><p class="role">Researcher</p><h3><a href="https://dilworth.io/" rel="external">Jonathon Dilworth</a></h3><p>Ontology alignment with large language models</p></div>
+			  </article>
+		<article class="person-card person-card--compact">
+			<div class="portrait"><img src="{{ '/assets/images/erica.png' | relative_url }}" alt="Erica Yang"></div>
+				<div class="person-content"><p class="role">Honorary Visiting Fellow</p><h3><a href="https://www.chiltoncomputing.co.uk/about-us/erica-yang/" rel="external">Erica Yang</a></h3><p>Knowledge Graphs for Healthcare</p></div>
+		</article>
+		<article class="person-card person-card--compact">
+			<div class="portrait"><img src="{{ '/assets/images/joana.jpg' | relative_url }}" alt="Joana Monteiro Marques"></div>
+				<div class="person-content"><p class="role">PhD student visitor</p><h3><a href="https://www.linkedin.com/in/joana-monteiro-marques/" rel="external">Joana Monteiro Marques</a></h3><p>AI-driven bacterial genomic surveillance of antimicrobial resistance</p></div>
+		</article>
+    </div>
+		
 	<br>	
 
 	<!-- STUDENTS -->
@@ -257,13 +261,35 @@ layout: null
 	</article>
     </div>
     </section>
+	
+	
+	<!-- TEACHING -->
+    <section class="band" id="teaching">
+      <div class="wrap">
+        <p class="section-label">Teaching</p>
+        <h2>Teaching Activities</h2>
+        <div class="cards project-grid">
+          <article class="card project-card"><h3>KG Module </h3>
+			<p>Semantic Web Technologies and Knowledge Graphs.</p>
+			<p>Module delivered to both UG and PG students at City St George's, University of London.</p>			
+			<a class="arrow-link" href="https://github.com/city-knowledge-graphs">Module details <span>→</span></a>
+		  </article>
+          <article class="card project-card">
+			<h3>KG Resource</h3>
+			<p>Teaching Knowledge Graph for Knowledge Graphs Education.</p>
+			<p>A novel educational resource catalogue designed to enhance KGs education</p>			
+			<a class="arrow-link" href="https://github.com/Teaching-Knowledge-Graph/TeachingKG">Resource details <span>→</span></a>			
+		  </article>		  
+        </div>
+      </div>
+    </section>
 
 	
     <!-- PUBLICATIONS -->
         
-	<section class="band" id="publications">
-	<div class="wrap">
-	<!-- <section class="wrap section publications" id="publications"> -->
+	<!--section class="band" id="publications">
+	<div class="wrap"-->
+	<section class="wrap section publications" id="publications"> 
       <p class="section-label">Outputs</p>
       <h2>Selected publications</h2>
       <!--p class="publication-note">This list is generated automatically from <code>publications.bib</code>. Add or edit BibTeX entries there to update this page.</p-->
@@ -271,7 +297,7 @@ layout: null
       <div class="bibliography" id="bibliography" data-bib-url="{{ '/assets/publications.bib' | relative_url }}">
         <p class="publication-status">Loading publications…</p>
       </div>
-	 </div>
+	 <!-- </div> -->
     </section>
   </main>
 
